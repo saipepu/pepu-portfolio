@@ -1,0 +1,272 @@
+.aboutme-part2-container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color:transparent;
+    display: grid;
+    overflow-y: visible;
+    padding: 100px 100px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.part2-projects{
+    position: relative;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1em;
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part2-circle1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    left: 30%;
+    top: 20%;
+}
+.myskills{
+    font-family: 'Six Caps',sans-serif;
+    font-size: 7em;
+    font-weight: 100;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.figma{
+    font-family: 'Six Caps',sans-serif;
+    font-size: 2.5em;
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reactjs-redux{
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.reactjs{
+    font-family: 'Six Caps',sans-serif;
+    font-size: 7em;
+    line-height: 100%;
+}
+.redux{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.2em;
+}
+.javascript-api{
+    grid-column: 3;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.js{
+    font-family: 'Six Caps',sans-serif;
+    font-size: 4em;
+    line-height: 100%;
+}
+.api{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.8em;
+}
+.htmlcss-bootstrap{
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.htmlcss{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.5em;
+}
+.bootstrap{
+    font-family: 'Six Caps',sans-serif;
+    font-size: 2.5em;
+}
+.uiux-text{
+    grid-column: 2;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.uiux{
+    font-family: 'Six Caps',sans-serif;
+    font-size: 2.5em;
+}
+.text{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.2em;
+}
+.part2-contact{
+    position: relative;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1em;
+    grid-column: 3;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part2-circle2{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    right: 35%;
+}
+/* FOR MOBILE */
+.redux-mobile{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.2em;
+    display: none;
+}
+.text-mobile{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.2em;
+    display: none;
+}
+.api-fetching-mobile{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.8em;
+    display: none;
+}
+.bootstrap-mobile{
+    font-family: 'Six Caps',sans-serif;
+    font-size: 2.5em;
+    display: none;
+}
+@media only screen and (max-width:428px){
+    .redux,.api,.text,.bootstrap{
+        display:none;
+    }
+    .aboutme-part2-container{
+        padding: 100px 10px;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .myskills{
+        grid-column:1 /span 4;
+        grid-row: 1;
+        font-size: 10em;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 1/ span 4;
+        padding: 0px 30px;
+        grid-row: 2;
+        margin-bottom: 3em;
+        text-align: center;
+    }
+    .javascript-api{
+        grid-column:1;
+        grid-row: 3;
+        font-size: 0.8em;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .uiux-text{
+        grid-column: 2/span 2;
+        grid-row: 3;
+        justify-content: center;
+        align-items: center;
+    }
+    .htmlcss-bootstrap{
+        grid-column: 4;
+        grid-row: 3;
+    }
+    .htmlcss{
+        font-family: 'Six Caps', sans-serif;
+        font-size: 3em;
+    }
+    .redux-mobile{
+        display: flex;
+        grid-column: 1;
+        grid-row: 4;
+        font-family: 'Six Caps', sans-serif;
+        font-size: 3em;
+        justify-content: center;
+        align-items: center;
+    }
+    .api-fetching-mobile{
+        display: flex;
+        grid-column: 2;
+        grid-row: 4;
+        font-family: 'Six Caps', sans-serif;
+        font-size: 2em;
+        justify-content: center;
+        align-items: center;
+    }
+    .bootstrap-mobile{
+        display: flex;
+        grid-column: 3;
+        grid-row: 4;
+        font-family: 'Six Caps', sans-serif;
+        font-size: 3em;
+        justify-content: center;
+        align-items: center;
+    }
+    .figma{
+        grid-column: 4;
+        grid-row: 4;
+        font-family: 'Six Caps', sans-serif;
+        font-size: 3em;
+        justify-content: center;
+        align-items: center;
+    }
+    .reactjs-redux{
+        grid-column: 1/ span 4;
+        grid-row: 5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+    }
+    .part2-projects{
+        grid-column: 1;
+        grid-row: 6;
+    }
+    .part2-contact{
+        grid-column: 4;
+        grid-row: 6
+    }
+    .part2-circle1{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border: 1px solid #fff;
+        border-radius: 100%;
+        left: 30%;
+        top: 20%;
+    }
+    .part2-circle2{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #fff;
+        border-radius: 100%;
+        right: 35%;
+    }
+    
+}

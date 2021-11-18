@@ -1,0 +1,168 @@
+.aboutme-part1-container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color:transparent;
+    display: grid;
+    overflow-y: visible;
+    padding: 100px 100px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.aboutme-back-btn{
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.aboutme-backarrow1,.aboutme-backarrow2{
+    width: 30px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+}
+.aboutme-backarrow1{
+    position: absolute;
+    top: 25%;
+    transform: rotate(-45deg);
+}
+.aboutme-backarrow2{
+    position: absolute;
+    bottom: 28%;
+    transform: rotate(45deg);
+}
+.iam{
+    font-family: 'Six Caps',sans-serif;
+    font-size: 5em;
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.part1-bio1{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.2em;
+    font-weight: 100;
+    grid-column: 3;
+    grid-row: 1;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    top: -10px;
+}
+.projects{
+    position: relative;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1em;
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.part1-circle1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    top: 35%;
+    left: 30%;
+}
+.pepu{
+    font-family: 'Six Caps',sans-serif;
+    font-size: 15em;
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part1-bio2{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.2em;
+    font-weight: 100;
+    text-align: right;
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.contact{
+    position: relative;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1em;
+    grid-column: 3;
+    grid-row: 3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+.part1-circle2{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    top: 40%;
+    left: 5%;
+}
+.aboutme-scroll-icon-wrapper{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%)
+}
+@media only screen and (max-width: 428px){
+    .aboutme-part1-container{
+        padding: 100px 20px;
+        grid-template-columns: repeat(2,1fr,2fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+    .iam{
+        grid-column: 1;
+        grid-row: 1;
+        line-height: 100%;
+        font-size: 5em;
+        justify-content: center;
+    }
+    .part1-bio1{
+        grid-column: 2/ span 2;
+        grid-row: 1;
+        line-height: 100%;
+        font-size: 18px;
+        justify-content: center;
+        padding-right: 10px;
+    }
+    .pepu{
+        grid-column:1 / span2;
+        grid-row: 2;
+        justify-content: center;
+        font-size: 22em;
+        line-height: 100%;
+    }
+    .part1-bio2{
+        grid-column: 1/span 3;
+        grid-row: 3;
+        font-size: 18px;
+        justify-content: flex-end;
+        padding-right: 30px;
+    }
+    .projects{
+        grid-column:1/span 2;
+        grid-row: 4;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact{
+        grid-column: 3 / span 2;
+        grid-row: 4;
+    }
+}

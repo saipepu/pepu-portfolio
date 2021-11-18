@@ -1,0 +1,15 @@
+.aboutme-page-container{
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    overscroll-behavior-y: contain;
+    scroll-snap-type: y mandatory;
+    background-color: rgb(0, 0, 0);
+    background-image: url('../../images/home_bg.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.aboutme-part1-container,.aboutme-part2-container,.aboutme-part3-container{
+    scroll-snap-align: start;
+}

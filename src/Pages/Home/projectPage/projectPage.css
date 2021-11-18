@@ -1,0 +1,411 @@
+.projectPage-container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: thistle;
+    background-image: url('../../../images/porject_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 100px;
+    display: grid;
+    overflow: hidden;
+}
+.pp-nav-wrapper{
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100vw;
+    padding-right: 30px;
+}
+.logo{
+    font-family: 'Poppins',sans-serif;
+    font-size: 4em;
+    font-weight: 700;
+}
+.pp-nav-container{
+    position: relative;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.pp-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: flex-end;
+    width: 80%;
+}
+.pp-nav::before{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 2px;
+    background-color: #fff;
+    bottom: 0;
+    right: 60px;
+}
+.pp-contact-btn-wrapper,.pp-project-btn-wrapper,.pp-aboutme-btn-wrapper{
+    margin-right: 10px;
+}
+/* PROJECT SLIDER */
+.projects-sc-wrapper{
+    position: relative;
+    grid-column: 1;
+    grid-row: 2 / span 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-space-holder{
+    position: relative;
+    width: 150px;
+    height: 80%;
+    flex: 4;
+}
+.project-card{
+    position: relative;
+    height: 80%;
+    background-color: rgba(119, 119, 119, 0.322);
+    flex: 1.5;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.project-card:not(:last-child){
+    margin-right: 1em;
+}
+.project-card:hover{
+    transform: scale(1.3);
+    flex: 2;
+}
+.project-demo{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.project-card{
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:darken;
+    opacity: 0.3;
+}
+.project-card:hover{
+    opacity: 0.8;
+}
+.project-1-wrapper{
+    background-image: url('../../../images/cooking_app_ui_desktop.jpg');
+}
+.project-2-wrapper{
+    background-image: url('../../../images//desktop_design_produuctivity_app.png');
+}
+.side-bar{
+    width: 2px;
+    height: 20px;
+    background-color: #fff;
+    opacity: 0.7;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    opacity: 0.7;
+}
+.footer{
+    position: relative;
+    grid-column: 1;
+    grid-row: 8;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: fit-content;
+    width: 100vw;
+}
+.links-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.2em;
+}
+.links-title{
+    position: relative;
+}
+.line{
+    width: fit-content;
+    height: fit-content;
+    color: #C3FCFF;
+    font-size: 1.4em;
+}
+.line::after{
+    content: '';
+    position: absolute;
+    width: 110%;
+    height: 2px;
+    background-color: #fff;
+    left: 0;
+    bottom: 0;
+}
+.links{
+    padding-top: 0.5em;
+    font-weight: 100;
+}
+.copyright-text-wrapper{
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}
+.copyright-text{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1em;
+    text-align: right;
+    font-weight: 100;
+    opacity: 70%;
+    margin-right: 80px;
+}
+/* humburgur */
+.menu{
+    position: absolute;
+    right: 60px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    display: none;
+}
+.menu-bar{
+    width: 50px;
+    height: 3px;
+    background-color: #fff;
+    transition: all 1s ease-in-out;
+    transform-origin: center;
+}
+.projectPage-container{
+    padding: 20px 20px;
+}
+.bar1{
+    position: absolute;
+    transform: rotate(0deg);
+    top: 15px;
+}
+.bar3{
+    position: absolute;
+    transform: rotate(0deg);
+    top: 45px;
+}
+.bar1-active{
+    position: absolute;
+    top: 30px;
+    transform: rotate(45deg);
+}
+.bar3-active{
+    position: absolute;
+    top: 30px;
+    transform: rotate(-45deg);
+}
+.bar2-active{
+    transform: translateX(100%);
+    opacity: 0;
+}
+.form-wrapper-active{
+    background-color: #565656;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    display: grid;
+    padding: 50px 50px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.form-wrapper-hide{
+    position: absolute;
+    display: none;
+}
+legend{
+    color: #3ABCFB;
+    font-family: 'Poppins',sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1em;
+}
+form{
+    grid-column: 1;
+    grid-row: 2 / span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    z-index: 9;
+}
+label{
+    position: relative;
+    color: #3ABCFB;
+    font-size: 1.5em;
+    font-family: 'Poppins',sans-serif;
+    margin-bottom: 0.5em;
+    top: 10px;
+}
+input{
+    position: relative;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #3ABCFB;
+    margin-bottom: 1em;
+}
+input:focus{
+    border-bottom: 1px solid #3ABCFB;
+}
+.userinput:focus .username{
+    transition: all 0.3s linear;
+    top: 0;
+}
+/* contact form humburgur */
+/* humburgur */
+.form-close{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    right: 0px;
+    top: -60px;
+    cursor: pointer;
+}
+.form-bar{
+    width: 50px;
+    height: 3px;
+    background-color: #fff;
+    transition: all 1s ease-in-out;
+    transform-origin: center;
+}
+.formbar1-active{
+    position: absolute;
+    top: 30px;
+    transform: rotate(45deg);
+}
+.formbar3-active{
+    position: absolute;
+    top: 30px;
+    transform: rotate(-45deg);
+}
+.formbar2-active{
+    transform: translateX(100%);
+    opacity: 0;
+}
+.form-bg{
+    display: block;
+    transition: all 0.1s ease-in;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+.form-bg-hide{
+    display: none;
+}
+@media only screen and (max-width:1024px){
+    .card-space-holder{
+        flex: 1;
+    }
+    .pp-nav-container{
+        width: 50%;
+    }
+    .projectPage-container{
+        padding: 20px 30px;
+    }
+    .pp-nav-container{
+        padding-right: 48px;
+    }
+}
+@media only screen and (max-width:428px){
+    .menu{
+        display: flex;
+    }
+    .pp-nav-container{
+        padding-right: 10px;
+    }
+    .pp-nav{
+        position: absolute;
+        flex-direction: column;
+        align-items: flex-end;
+        top: 60px;
+    }
+    .pp-nav::before{
+        display: none;
+    }
+    .pp-contact-btn-wrapper,.pp-project-btn-wrapper,.pp-aboutme-btn-wrapper{
+        transition: all 0.5s ease-in-out;
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    .pp-contact-btn-wrapper-active,.pp-project-btn-wrapper-active,.pp-aboutme-btn-wrapper-active{
+        transition: all 0.5s ease-in-out;
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    .pp-project-btn-wrapper,.pp-project-btn-wrapper-active{
+        transition-delay: 0.3s;
+    }
+    .pp-aboutme-btn-wrapper,.pp-aboutme-btn-wrapper-active{
+        transition-delay: 0.5s;
+    }
+    .form-wrapper-active{
+        padding: 20px 20px;
+    }
+    .logo{
+        font-size: 2em;
+    }
+    .projects-sc-wrapper{
+        overflow-x: auto;
+        padding: 0px 400px;
+    }
+    .projects-sc-wrapper::-webkit-scrollbar{
+        display: none;
+    }
+    .project-card:hover{
+        flex: none;
+    }
+    .card-space-holder{
+        display: none;
+    }
+    .project-card{
+        flex: none;
+        width: 100px;
+    }
+    .line{
+        font-size: 1em;
+    }
+    .line::after{
+        width: 80%;
+    }
+    .links{
+        font-size: 0.6em;
+    }
+    .copyright-text{
+        font-size: 0.5em;
+        margin-right: 60px;
+    }
+}
