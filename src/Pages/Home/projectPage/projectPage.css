@@ -104,9 +104,31 @@
 }
 .project-1-wrapper{
     background-image: url('../../../images/cooking_app_ui_desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: 800%;
+    background-position-y: top;
+    background-position-x: -70px;
 }
 .project-2-wrapper{
-    background-image: url('../../../images//desktop_design_produuctivity_app.png');
+    background-image: url('../../../images/desktop_design_produuctivity_app.png');
+    background-repeat: no-repeat;
+    background-size: 1000%;
+}
+.project-3-wrapper{
+    background-image: url('../../../images/ecommerce-site-img1.png');
+    background-position-x: left;
+    background-repeat: no-repeat;
+}
+.project-4-wrapper{
+    background-image: url('../../../images/movie-app-react-1.png');
+    background-position-x: left;
+    background-repeat: no-repeat;
+}
+.project-5-wrapper{
+    background-image: url('../../../images/weather-app-img-1.png');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .side-bar{
     width: 2px;
@@ -379,7 +401,7 @@ input:focus{
         font-size: 2em;
     }
     .projects-sc-wrapper{
-        overflow-x: auto;
+        overflow-x: scroll;
         padding: 0px 400px;
     }
     .projects-sc-wrapper::-webkit-scrollbar{
@@ -387,6 +409,7 @@ input:focus{
     }
     .project-card:hover{
         flex: none;
+        transform: none;
     }
     .card-space-holder{
         display: none;

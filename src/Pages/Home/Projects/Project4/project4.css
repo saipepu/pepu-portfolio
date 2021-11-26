@@ -69,3 +69,38 @@
     grid-column: 1;
     grid-row: 6;
 } */
+a{
+    text-decoration: line-through;
+}
+.project4-images-wrapper{
+    position: relative;
+    grid-column: 2;
+    grid-row: 1/ span 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    padding-top: 300px;
+}
+.project4-images-wrapper::-webkit-scrollbar{
+    display: none;
+}
+.project4-image1{
+    background-image: url('../../../../images/movie-app-react-1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project4-image2{
+    background-image: url('../../../../images/movie-app-react-2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project4-image3{
+    background-image: url('../../../../images/movie-app-react-3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -26,11 +26,11 @@ const Project1 = () => {
             </div>
             <div className="project1-source-code-wrapper">
                 <div className="project1-source-code-title">Source Code</div>
-                <div className="project1-source-code-link"><a href="https://github.com/saipepu/food-recipes-app" target="_blank" rel="noopener noreferrer" className="project1-github-repo">visit github repo</a></div>
+                <div className="project-source-code-link"><a href="https://github.com/saipepu/food-recipes-app" target="_blank" rel="noopener noreferrer" className="project-github-repo">visit github repo</a></div>
             </div>
             <div className="project1-site-link-wrapper">
                 <div className="project1-site-title">Visit Site</div>
-                <div className="project1-site-link"><a href="https://saipepu.github.io/food-recipes-app/" target="_blank" rel="noopener noreferrer"className="project1-github-link">on_github</a></div>
+                <div className="project-site-link"><a href="https://saipepu.github.io/food-recipes-app/" target="_blank" rel="noopener noreferrer"className="project-github-link">on_github</a></div>
             </div>
         </div>
         </>

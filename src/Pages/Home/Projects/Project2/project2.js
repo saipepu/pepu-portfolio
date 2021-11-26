@@ -7,7 +7,7 @@ const Project2 = () => {
         <>
         <div className="project1-container">
             <div className="project1-description-wrapper">
-                <div className="project1-description-title">Project 2</div>
+                <div className="project1-description-title">PRODUCITVITY App</div>
                 <div className="project1-description-text">
                     This is the productivity app that I build using react js and redux.
                 </div>
@@ -25,14 +25,14 @@ const Project2 = () => {
             </div>
             <div className="project1-source-code-wrapper">
                 <div className="project1-source-code-title">Source Code</div>
-                <div className="project1-source-code-link">
-                    <a href="https://github.com/saipepu/productivity-app/deployments/activity_log?environment=github-pages" className="link">github repo</a>
+                <div className="project-source-code-link">
+                    <a href="https://github.com/saipepu/productivity-app/deployments/activity_log?environment=github-pages" target="_blank" rel="noopener noreferrer" className="project-github-repo">github repo</a>
                 </div>
             </div>
             <div className="project1-site-link-wrapper">
                 <div className="project1-site-title">visit</div>
-                <div className="project1-site-link">
-                    <a href="https://saipepu.github.io/productivity-app/" className="link">github page link</a>
+                <div className="project-site-link">
+                    <a href="https://saipepu.github.io/productivity-app/" target="_blank" rel="noopener noreferrer" className="project-github-link">github page link</a>
                 </div>
             </div>
         </div>

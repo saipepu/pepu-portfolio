@@ -69,3 +69,35 @@
     grid-column: 1;
     grid-row: 6;
 } */
+.project5-images-wrapper{
+    position: relative;
+    grid-column: 2;
+    grid-row: 1/ span 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    padding-top: 300px;
+}
+.project5-images-wrapper::-webkit-scrollbar{
+    display: none;
+}
+.project5-image1{
+    background-image: url('../../../../images/weather-app-img-1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project5-image2{
+    background-image: url('../../../../images/weather-app-img-2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project5-image3{
+    background-image: url('../../../../images/weather-app-img-3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

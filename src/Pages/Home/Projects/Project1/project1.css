@@ -104,11 +104,11 @@
     background-size: cover;
     margin-bottom: 200px;
 }
-.project1-github-link,.project1-github-repo{
+.project-github-link,.project-github-repo{
     position: relative;
     color: cyan;
 }
-.project1-github-link::after,.project1-github-repo::after{
+.project-github-link::after,.project-github-repo::after{
     content: '';
     position: absolute;
     bottom: -5%;
@@ -118,24 +118,31 @@
     background-color: #fff;
     transition: all 0.3s ease-in;
 }
-.project1-site-link:hover .project1-github-link::after{
+.project-site-link:hover .project-github-link::after{
     width: 100%;
 }
-.project1-source-code-link:hover .project1-github-repo::after{
+.project-source-code-link:hover .project-github-repo::after{
     width: 100%;
 }
 @media only screen and (max-width:428px){
+    .img{
+        border-radius: 10px;
+    }
     .project1-container{
         display: grid;
         grid-template-columns: 1fr;
         overflow: hidden;
-        padding: 10px 0px;
     }
     .project1-description-wrapper{
+        padding-left: 20px;
         grid-column: 1;
         grid-row: 1 / span 2;
     }
+    .project1-description-text,.project1-role-text{
+        padding-right: 40px;
+    }
     .project1-role-wrapper{
+        padding-left: 20px;
         grid-column: 1;
         grid-row: 3;
     }
@@ -145,29 +152,28 @@
         grid-row: 4 / span 4;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         width: 100vw;
         overflow-x: auto;
         margin-left: -30px;
-        padding-left: 20px;
+        padding: 0;
+        padding-right: 100px;
+    }
+    .project1-image1,.project1-image2,.project1-image3,.project1-image4{
+        margin: 0;
+        margin-left: 20px;
+        width: 200px;
+        height: 350px;
+    }
+    .project1-image1{
+        margin-left: 800px;
     }
     .project1-images-wrapper::before{
         display: none;
     }
     .project1-images-wrapper::after{
         display: none;
-    }
-    .img{
-        position: relative;
-        background-color: aquamarine;
-        flex:none;
-        width: 100px;
-        height: 200px;
-    }
-    .img:not(:last-child){
-        margin: 0;
-        margin-right: 10px;
     }
     .project1-source-code-wrapper{
         grid-column: 1;
