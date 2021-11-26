@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pepu-portfolio/static/css/main.d32d4709.chunk.css",
+    "main.css": "/pepu-portfolio/static/css/main.4fa6df7f.chunk.css",
     "main.js": "/pepu-portfolio/static/js/main.0a888a4d.chunk.js",
     "main.js.map": "/pepu-portfolio/static/js/main.0a888a4d.chunk.js.map",
     "runtime-main.js": "/pepu-portfolio/static/js/runtime-main.292f191c.js",
@@ -8,7 +8,7 @@
     "static/js/2.177db96d.chunk.js": "/pepu-portfolio/static/js/2.177db96d.chunk.js",
     "static/js/2.177db96d.chunk.js.map": "/pepu-portfolio/static/js/2.177db96d.chunk.js.map",
     "index.html": "/pepu-portfolio/index.html",
-    "static/css/main.d32d4709.chunk.css.map": "/pepu-portfolio/static/css/main.d32d4709.chunk.css.map",
+    "static/css/main.4fa6df7f.chunk.css.map": "/pepu-portfolio/static/css/main.4fa6df7f.chunk.css.map",
     "static/js/2.177db96d.chunk.js.LICENSE.txt": "/pepu-portfolio/static/js/2.177db96d.chunk.js.LICENSE.txt",
     "static/media/project1.css": "/pepu-portfolio/static/media/cooking_app_ui_desktop.ab55cc36.jpg",
     "static/media/project2.css": "/pepu-portfolio/static/media/mobile_design_productivity_app.3eaa6153.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.292f191c.js",
     "static/js/2.177db96d.chunk.js",
-    "static/css/main.d32d4709.chunk.css",
+    "static/css/main.4fa6df7f.chunk.css",
     "static/js/main.0a888a4d.chunk.js"
   ]
 }
