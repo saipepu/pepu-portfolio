@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pepu-portfolio/static/css/main.d73d6874.chunk.css",
-    "main.js": "/pepu-portfolio/static/js/main.2985f709.chunk.js",
-    "main.js.map": "/pepu-portfolio/static/js/main.2985f709.chunk.js.map",
+    "main.css": "/pepu-portfolio/static/css/main.7066109a.chunk.css",
+    "main.js": "/pepu-portfolio/static/js/main.9d9cb5dc.chunk.js",
+    "main.js.map": "/pepu-portfolio/static/js/main.9d9cb5dc.chunk.js.map",
     "runtime-main.js": "/pepu-portfolio/static/js/runtime-main.292f191c.js",
     "runtime-main.js.map": "/pepu-portfolio/static/js/runtime-main.292f191c.js.map",
     "static/js/2.612e80dc.chunk.js": "/pepu-portfolio/static/js/2.612e80dc.chunk.js",
     "static/js/2.612e80dc.chunk.js.map": "/pepu-portfolio/static/js/2.612e80dc.chunk.js.map",
     "index.html": "/pepu-portfolio/index.html",
-    "static/css/main.d73d6874.chunk.css.map": "/pepu-portfolio/static/css/main.d73d6874.chunk.css.map",
+    "static/css/main.7066109a.chunk.css.map": "/pepu-portfolio/static/css/main.7066109a.chunk.css.map",
     "static/js/2.612e80dc.chunk.js.LICENSE.txt": "/pepu-portfolio/static/js/2.612e80dc.chunk.js.LICENSE.txt",
     "static/media/My-resume.png.b7261be8.pdf": "/pepu-portfolio/static/media/My-resume.png.b7261be8.pdf",
     "static/media/project1.css": "/pepu-portfolio/static/media/cooking_app_ui_desktop.ab55cc36.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.292f191c.js",
     "static/js/2.612e80dc.chunk.js",
-    "static/css/main.d73d6874.chunk.css",
-    "static/js/main.2985f709.chunk.js"
+    "static/css/main.7066109a.chunk.css",
+    "static/js/main.9d9cb5dc.chunk.js"
   ]
 }
